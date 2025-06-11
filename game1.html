@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game 1 - Brandon's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero" style="background-image: url('images/title-image.png');">
+    <div class="hero-overlay">
+      <h1>Cyber Barrage</h1>
+    </div>
+  </header>
+ <div class="back-button">
+      <a href="index.html">&larr; Back to Main Menu</a>
+    </div>
+  <main class="game-content">
+    <!-- Back Button -->
+   
+
+    <div class="card">
+      <h2>About</h2>
+      <p>
+        In this 2D shooter-platformer game, the player survives against a variety of enemy types in endless waves to collect points. With a diverse array of weapons, the player must manage ammunition and strategically utilize an ultimate ability to dominate the robotic invasion.
+      </p>
+      <div class="link-button">
+      <a href="https://github.com/Brandon0240/Cyber-Barrage-Code" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <div class="link-button">
+      <a href="https://brandon767.itch.io/cyber-barrage" target="_blank" rel="noopener noreferrer">Itch.io</a>
+    </div>
+
+    </div>
+
+    <div class="card">
+      <h2>Project Info</h2>
+      <ul class="project-info">
+        <li><strong>Role:</strong> Game Developer</li>
+        <li><strong>Team Size:</strong> 1</li>
+        <li><strong>Time Frame:</strong> February 2025 - Present</li>
+        <li><strong>Engine:</strong> Unity</li>
+        <li><strong>Language:</strong> C#</li>
+        <li><strong>Other Tool:</strong> Aseprite</li>
+       
+        
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Ultimate Ability Implementation</h2>
+      <p>• Developed an ultimate ability where killing enemies progresses the progression UI bar.</p>
+      <p>• When clicking the ability keybind Q, the weapon controller script swaps your weapon to a machine gun and a barrage of homing missiles.</p>
+      <p>• The duration of keeping these weapons is displayed in the duration UI.</p>
+      <p>• When the duration is finished, the player loses the weapon and the rockets </p>
+      <img src="images/ultimate-showcase.gif.gif" alt="Ultimate Ability GIF showcasing gameplay" />
+    </div>
+
+   
+    <div class="card">
+      <h2>Customizable Loot and Stat System</h2>
+      <p>• Each enemy game object has a chance to drop collectable items such as shotgun, rifle ammo, or a coin.</p>
+      <p>• These game objects use a get method from a dictionary containing enemy stats and each drop chance.</p>
+
+    </div>
+
+    <div class="card">
+      <h2>Gif of Enemies Dying</h2>
+    </div>
+     <div class="card">
+      <h2>Learnings</h2>
+      <p>• To change game logic and balance, I learned to integrating Unity's UI system and game object logic with dictionary database manager scripts</p>
+      <p>• To ease testing, debugging and adding new gameplay features, I learned to develop global and re usable scripts such as mouse tracking, shooting, loot, enemy scripts</p>
+      <p>• Connecting animations to player's walk and idle script</p>
+      <p></p>
+    </div>
+    
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>
