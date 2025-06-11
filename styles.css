@@ -217,3 +217,20 @@ nav .nav-links li a:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 12px rgba(0,0,0,0.4);
 }
+.code-link {
+  display: inline-block;
+  background-color: #00bfff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.code-link:hover {
+  background-color: #009acd;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.4);
+}

@@ -42,7 +42,7 @@
         <li><strong>Time Frame:</strong> February 2025 - Present</li>
         <li><strong>Engine:</strong> Unity</li>
         <li><strong>Language:</strong> C#</li>
-        <li><strong>Other Tool:</strong> Aseprite</li>
+        <li><strong>Tool:</strong> Aseprite</li>
        
         
       </ul>
@@ -50,30 +50,48 @@
 
     <div class="card">
       <h2>Ultimate Ability Implementation</h2>
-      <p>• Developed an ultimate ability where killing enemies progresses the progression UI bar.</p>
-      <p>• When clicking the ability keybind Q, the weapon controller script swaps your weapon to a machine gun and a barrage of homing missiles.</p>
-      <p>• The duration of keeping these weapons is displayed in the duration UI.</p>
-      <p>• When the duration is finished, the player loses the weapon and the rockets </p>
+<p>
+  • Implemented an ultimate ability that fills a progression UI bar as enemies are defeated, rewarding skilled play.
+</p>
+<p>
+  • Triggering the ability with the 'Q' key temporarily upgrades the player's weapon to a high-powered machine gun and launches a barrage of homing missiles periodically.
+</p>
+<p>
+  • To help players track their ultimate's duration, a UI bar replaces the current ammo bar to clearly display on the screen.
+</p>
+<p>
+  • Once the duration expires, the player's weapons revert to their standard forms, maintaining game balance.
+</p>
+<p>
+  <a class="code-link" href="https://github.com/Brandon0240/Cyber-Barrage-Code/tree/main/scripts/Ultimate" target="_blank" rel="noopener noreferrer">
+    View Implementation Code on GitHub
+  </a>
+</p>
+
       <img src="images/ultimate-showcase.gif.gif" alt="Ultimate Ability GIF showcasing gameplay" />
     </div>
 
    
     <div class="card">
-      <h2>Customizable Loot and Stat System</h2>
-      <p>• Each enemy game object has a chance to drop collectable items such as shotgun, rifle ammo, or a coin.</p>
-      <p>• These game objects use a get method from a dictionary containing enemy stats and each drop chance.</p>
+      <h2>Customizable Loot and Stat System Implementation</h2>
+      <p>• Every enemy game object has a chance to drop collectible items such as shotgun ammo, rifle ammo, health pack and coins gameplay</p>
 
+      <p>• These drops are determined using a C# dictionary that maps each enemy’s stats to specific drop chances and item amounts for future loot system balancing.</p>
+
+      <a class="code-link" href="https://github.com/Brandon0240/Cyber-Barrage-Code/blob/main/scripts/StatSheets/Enemies/EnemyStatSheet.cs" target="_blank" rel="noopener noreferrer">
+    View Implementation Code on GitHub
+  </a>
     </div>
 
     <div class="card">
       <h2>Gif of Enemies Dying</h2>
     </div>
      <div class="card">
-      <h2>Learnings</h2>
+      <h2>Other Learnings During Development</h2>
       <p>• To change game logic and balance, I learned to integrating Unity's UI system and game object logic with dictionary database manager scripts</p>
-      <p>• To ease testing, debugging and adding new gameplay features, I learned to develop global and re usable scripts such as mouse tracking, shooting, loot, enemy scripts</p>
-      <p>• Connecting animations to player's walk and idle script</p>
-      <p></p>
+      <p>• To ease testing, debugging and adding new gameplay features, I learned to develop global and re usable scripts such as mouse tracking, shooting, loot and enemy scripts</p>
+      <p>• I connected animations to player's walk and idle script</p>
+      <img src="images/animation-showcase.gif" alt="Ultimate Ability GIF showcasing gameplay" />
     </div>
     
   </main>
