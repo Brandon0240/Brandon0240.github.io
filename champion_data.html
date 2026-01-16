@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Champion - Brandon's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="hero" style="background-image: url('images/champion-data/background3dplot.png');">
+    <div class="hero-overlay">
+      <h1>Champion Data</h1>
+    </div>
+  </header>
+  <div class="back-button">
+    <a href="index.html">&larr; Back to Main Menu</a>
+  </div>
+  <main class="game-content">
+
+    <div class="card">
+      <h2>About</h2>
+      <p>
+        This project analyzes competitive League of Legends gameplay data collected directly from Riot Games’ developer
+        API to uncover statistics not publicly available on popular analytics platforms.
+      </p>
+      <p>
+        Using large-scale match data, we engineered a custom data-gathering, cleaning, and analysis pipeline to evaluate
+        how factors such as first blood, item builds, champion roles, and item combinations impact win rates.
+      </p>
+      <p>
+        The results reveal statistically significant patterns such as high-impact item–champion synergies and
+        role-dependent scaling.
+      </p>
+      <p>
+        It provides players with deeper, data-driven insights into optimal gameplay decisions.
+      </p>
+      <div class="link-button">
+        <a href="https://github.sfu.ca/baa45/Cmpt-353-Project" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+
+    </div>
+
+    <div class="card">
+      <h2>Project Info</h2>
+      <ul class="project-info">
+        <li><strong>Role:</strong> Software Developer</li>
+        <li><strong>Team Size:</strong> 2</li>
+        <li><strong>Time Frame:</strong> January 2024 - May 2024</li>
+        <li><strong>Course-Based Software Project:</strong> CMPT 353 - Computational Data Science, SFU</li>
+        <li><strong>IDE:</strong> Pycharm</li>
+        <li><strong>Language:</strong> Python</li>
+        <li><strong>APIs:</strong> Riot Games REST APIs for League of Legends data</li>
+
+
+
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Data Sorting </h2>
+      <p>
+
+        • Utilize PyCharm's debugger to sort through a medium data set, which was 2.4 GB and contained over
+        460490 rows.
+
+      </p>
+
+
+
+      <p>
+
+        • Used list appending, panda data frame sorting, exploding and other functions to transform data into
+        easier to handle numbers.
+
+      </p>
+
+      <p>
+
+        • The sorted gameplay data was analyzed and visualized using bubble charts to identify optimal item
+        builds for League of Legends champions.
+
+      </p>
+
+      <p>
+
+        • This is shown through emphasizing the correlations between item usage frequency and win rate.
+
+      </p>
+
+      <p>
+        <a class="code-link"
+          href="https://github.sfu.ca/baa45/Cmpt-353-Project/blob/main/StarterCodeProject/Best%20and%20worst%20Full%20Items.png"
+          target="_blank" rel="noopener noreferrer">
+          View Picture on GitHub
+        </a>
+      </p>
+
+      <img src="images/champion-data/winrate per item.png" alt="picture" />
+    </div>
+
+
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+</body>
+
+</html>
